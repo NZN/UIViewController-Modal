@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F86BF07E185D1ACA00388E84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86BF07D185D1ACA00388E84 /* Foundation.framework */; };
+		F86BF080185D1ACA00388E84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86BF07F185D1ACA00388E84 /* CoreGraphics.framework */; };
+		F86BF082185D1ACA00388E84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86BF081185D1ACA00388E84 /* UIKit.framework */; };
+		F86BF0D5185D1F5100388E84 /* NZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BF0C9185D1F5100388E84 /* NZAppDelegate.m */; };
+		F86BF0D6185D1F5100388E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86BF0CB185D1F5100388E84 /* Main.storyboard */; };
+		F86BF0D7185D1F5100388E84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86BF0CD185D1F5100388E84 /* Images.xcassets */; };
+		F86BF0D8185D1F5100388E84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F86BF0CF185D1F5100388E84 /* InfoPlist.strings */; };
+		F86BF0D9185D1F5100388E84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BF0D1185D1F5100388E84 /* main.m */; };
+		F86BF0DE185D1FC500388E84 /* UIViewController+Modal.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BF0DD185D1FC500388E84 /* UIViewController+Modal.m */; };
+		F86BF0F7185D239C00388E84 /* NZModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BF0F2185D239C00388E84 /* NZModalViewController.m */; };
+		F86BF0F8185D239C00388E84 /* NZPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BF0F5185D239C00388E84 /* NZPushViewController.m */; };
+		F86BF0FB185D23A400388E84 /* NZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BF0FA185D23A400388E84 /* NZViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F86BF07A185D1ACA00388E84 /* UIViewController-Modal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIViewController-Modal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86BF07D185D1ACA00388E84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F86BF07F185D1ACA00388E84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F86BF081185D1ACA00388E84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F86BF09C185D1ACA00388E84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F86BF0C8185D1F5100388E84 /* NZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZAppDelegate.h; sourceTree = "<group>"; };
+		F86BF0C9185D1F5100388E84 /* NZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZAppDelegate.m; sourceTree = "<group>"; };
+		F86BF0CC185D1F5100388E84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F86BF0CD185D1F5100388E84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F86BF0D0185D1F5100388E84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F86BF0D1185D1F5100388E84 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F86BF0D2185D1F5100388E84 /* UIViewController-Modal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UIViewController-Modal-Info.plist"; sourceTree = "<group>"; };
+		F86BF0D3185D1F5100388E84 /* UIViewController-Modal-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController-Modal-Prefix.pch"; sourceTree = "<group>"; };
+		F86BF0DC185D1FC500388E84 /* UIViewController+Modal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Modal.h"; sourceTree = "<group>"; };
+		F86BF0DD185D1FC500388E84 /* UIViewController+Modal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Modal.m"; sourceTree = "<group>"; };
+		F86BF0F1185D239C00388E84 /* NZModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZModalViewController.h; sourceTree = "<group>"; };
+		F86BF0F2185D239C00388E84 /* NZModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZModalViewController.m; sourceTree = "<group>"; };
+		F86BF0F4185D239C00388E84 /* NZPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZPushViewController.h; sourceTree = "<group>"; };
+		F86BF0F5185D239C00388E84 /* NZPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZPushViewController.m; sourceTree = "<group>"; };
+		F86BF0F9185D23A400388E84 /* NZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZViewController.h; sourceTree = "<group>"; };
+		F86BF0FA185D23A400388E84 /* NZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F86BF077185D1ACA00388E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86BF080185D1ACA00388E84 /* CoreGraphics.framework in Frameworks */,
+				F86BF082185D1ACA00388E84 /* UIKit.framework in Frameworks */,
+				F86BF07E185D1ACA00388E84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F86BF071185D1ACA00388E84 = {
+			isa = PBXGroup;
+			children = (
+				F86BF0C3185D1F5100388E84 /* Example */,
+				F86BF07C185D1ACA00388E84 /* Frameworks */,
+				F86BF07B185D1ACA00388E84 /* Products */,
+				F86BF0DB185D1F5600388E84 /* UIViewController-Modal */,
+			);
+			sourceTree = "<group>";
+		};
+		F86BF07B185D1ACA00388E84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F86BF07A185D1ACA00388E84 /* UIViewController-Modal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F86BF07C185D1ACA00388E84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F86BF07D185D1ACA00388E84 /* Foundation.framework */,
+				F86BF07F185D1ACA00388E84 /* CoreGraphics.framework */,
+				F86BF081185D1ACA00388E84 /* UIKit.framework */,
+				F86BF09C185D1ACA00388E84 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F86BF0C3185D1F5100388E84 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F86BF0C4185D1F5100388E84 /* Classes */,
+				F86BF0CD185D1F5100388E84 /* Images.xcassets */,
+				F86BF0CE185D1F5100388E84 /* SupportingFiles */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		F86BF0C4185D1F5100388E84 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F86BF0C8185D1F5100388E84 /* NZAppDelegate.h */,
+				F86BF0C9185D1F5100388E84 /* NZAppDelegate.m */,
+				F86BF0C5185D1F5100388E84 /* Controllers */,
+				F86BF0CA185D1F5100388E84 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F86BF0C5185D1F5100388E84 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F86BF0F9185D23A400388E84 /* NZViewController.h */,
+				F86BF0FA185D23A400388E84 /* NZViewController.m */,
+				F86BF0F0185D239C00388E84 /* Modal */,
+				F86BF0F3185D239C00388E84 /* Push */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F86BF0CA185D1F5100388E84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F86BF0CB185D1F5100388E84 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F86BF0CE185D1F5100388E84 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F86BF0CF185D1F5100388E84 /* InfoPlist.strings */,
+				F86BF0D1185D1F5100388E84 /* main.m */,
+				F86BF0D2185D1F5100388E84 /* UIViewController-Modal-Info.plist */,
+				F86BF0D3185D1F5100388E84 /* UIViewController-Modal-Prefix.pch */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F86BF0DB185D1F5600388E84 /* UIViewController-Modal */ = {
+			isa = PBXGroup;
+			children = (
+				F86BF0DC185D1FC500388E84 /* UIViewController+Modal.h */,
+				F86BF0DD185D1FC500388E84 /* UIViewController+Modal.m */,
+			);
+			path = "UIViewController-Modal";
+			sourceTree = "<group>";
+		};
+		F86BF0F0185D239C00388E84 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				F86BF0F1185D239C00388E84 /* NZModalViewController.h */,
+				F86BF0F2185D239C00388E84 /* NZModalViewController.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		F86BF0F3185D239C00388E84 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				F86BF0F4185D239C00388E84 /* NZPushViewController.h */,
+				F86BF0F5185D239C00388E84 /* NZPushViewController.m */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F86BF079185D1ACA00388E84 /* UIViewController-Modal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86BF0AC185D1ACA00388E84 /* Build configuration list for PBXNativeTarget "UIViewController-Modal" */;
+			buildPhases = (
+				F86BF076185D1ACA00388E84 /* Sources */,
+				F86BF077185D1ACA00388E84 /* Frameworks */,
+				F86BF078185D1ACA00388E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIViewController-Modal";
+			productName = "UIViewController-Modal";
+			productReference = F86BF07A185D1ACA00388E84 /* UIViewController-Modal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F86BF072185D1ACA00388E84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NZ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "No Zebra Network";
+			};
+			buildConfigurationList = F86BF075185D1ACA00388E84 /* Build configuration list for PBXProject "UIViewController-Modal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F86BF071185D1ACA00388E84;
+			productRefGroup = F86BF07B185D1ACA00388E84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F86BF079185D1ACA00388E84 /* UIViewController-Modal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F86BF078185D1ACA00388E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86BF0D6185D1F5100388E84 /* Main.storyboard in Resources */,
+				F86BF0D8185D1F5100388E84 /* InfoPlist.strings in Resources */,
+				F86BF0D7185D1F5100388E84 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F86BF076185D1ACA00388E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86BF0F8185D239C00388E84 /* NZPushViewController.m in Sources */,
+				F86BF0F7185D239C00388E84 /* NZModalViewController.m in Sources */,
+				F86BF0DE185D1FC500388E84 /* UIViewController+Modal.m in Sources */,
+				F86BF0FB185D23A400388E84 /* NZViewController.m in Sources */,
+				F86BF0D5185D1F5100388E84 /* NZAppDelegate.m in Sources */,
+				F86BF0D9185D1F5100388E84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F86BF0CB185D1F5100388E84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F86BF0CC185D1F5100388E84 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F86BF0CF185D1F5100388E84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F86BF0D0185D1F5100388E84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F86BF0AA185D1ACA00388E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F86BF0AB185D1ACA00388E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F86BF0AD185D1ACA00388E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/SupportingFiles/UIViewController-Modal-Prefix.pch";
+				INFOPLIST_FILE = "Example/SupportingFiles/UIViewController-Modal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F86BF0AE185D1ACA00388E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/SupportingFiles/UIViewController-Modal-Prefix.pch";
+				INFOPLIST_FILE = "Example/SupportingFiles/UIViewController-Modal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F86BF075185D1ACA00388E84 /* Build configuration list for PBXProject "UIViewController-Modal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86BF0AA185D1ACA00388E84 /* Debug */,
+				F86BF0AB185D1ACA00388E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F86BF0AC185D1ACA00388E84 /* Build configuration list for PBXNativeTarget "UIViewController-Modal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86BF0AD185D1ACA00388E84 /* Debug */,
+				F86BF0AE185D1ACA00388E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F86BF072185D1ACA00388E84 /* Project object */;
+}
