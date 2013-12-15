@@ -19,7 +19,7 @@ You will need LLVM 3.0 or later in order to build UIViewController-Modal.
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add UIViewController-Modal to your project.
 
-* Add a pod entry for UIViewController-Modal to your Podfile `pod 'UIViewController-Modal', :git => 'https://github.com/NZN/NSString-HTML'`
+* Add a pod entry for UIViewController-Modal to your Podfile `pod 'UIViewController-Modal', '~> 0.0.1'`
 * Install the pod(s) by running `pod install`.
 
 ### Source files
