@@ -1,4 +1,4 @@
-#UIViewController-Modal
+#UIViewController-Modal ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)
 
 Determine whether UIViewController is presented as modal.
 
