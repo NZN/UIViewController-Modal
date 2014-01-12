@@ -12,16 +12,15 @@
 
 - (BOOL)isModal
 {
-    BOOL isModal = ((self.parentViewController && self.parentViewController.modalViewController == self) ||
+    BOOL isModal = ((self.parentViewController && self.parentViewController.presentedViewController == self) ||
                     ( self.navigationController && self.navigationController.parentViewController &&
-                     self.navigationController.parentViewController.modalViewController == self.navigationController) ||
+                     self.navigationController.parentViewController.presentedViewController == self.navigationController) ||
                     [self.tabBarController.parentViewController isKindOfClass:[UITabBarController class]]);
     
-    // iOS 5+
     if (!isModal && [self respondsToSelector:@selector(presentingViewController)]) {
-        isModal = ((self.presentingViewController && self.presentingViewController.modalViewController == self) ||
+        isModal = ((self.presentingViewController && self.presentingViewController.presentedViewController == self) ||
                    (self.navigationController && self.navigationController.presentingViewController &&
-                    self.navigationController.presentingViewController.modalViewController == self.navigationController) ||
+                    self.navigationController.presentingViewController.presentedViewController == self.navigationController) ||
                    [self.tabBarController.parentViewController isKindOfClass:[UITabBarController class]]);
         
     }
