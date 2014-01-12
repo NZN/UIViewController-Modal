@@ -8,7 +8,7 @@ Determine whether UIViewController is presented as modal.
 
 ## Requirements
 
-UIViewController-Modal works on iOS 5.0+ version and is compatible with ARC projects. It depends on the following Apple frameworks, which should already be included with most Xcode templates:
+UIViewController-Modal works on iOS 6.0+ version and is compatible with ARC projects. It depends on the following Apple frameworks, which should already be included with most Xcode templates:
 
 * Foundation.framework
 * UIKit.framework
@@ -21,7 +21,7 @@ You will need LLVM 3.0 or later in order to build UIViewController-Modal.
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add UIViewController-Modal to your project.
 
-* Add a pod entry for UIViewController-Modal to your Podfile `pod 'UIViewController-Modal', '~> 0.0.1'`
+* Add a pod entry for UIViewController-Modal to your Podfile `pod 'UIViewController-Modal'`
 * Install the pod(s) by running `pod install`.
 
 ### Source files
