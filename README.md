@@ -5,6 +5,7 @@ Determine whether UIViewController is presented as modal.
 [![Build Status](https://api.travis-ci.org/NZN/UIViewController-Modal.png)](https://api.travis-ci.org/NZN/UIViewController-Modal.png)
 [![Cocoapods](https://cocoapod-badges.herokuapp.com/v/UIViewController-Modal/badge.png)](http://beta.cocoapods.org/?q=name%3Auiviewcontroller%20name%3Amodal%2A)
 [![Cocoapods](https://cocoapod-badges.herokuapp.com/p/UIViewController-Modal/badge.png)](http://beta.cocoapods.org/?q=name%3Auiviewcontroller%20name%3Amodal%2A)
+[![Analytics](https://ga-beacon.appspot.com/UA-48753665-1/NZN/UIViewController-Modal/README.md)](https://github.com/igrigorik/ga-beacon)
 
 ## Requirements
 
