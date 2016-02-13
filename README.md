@@ -3,8 +3,8 @@
 Determine whether UIViewController is presented as modal.
 
 [![Build Status](https://api.travis-ci.org/NZN/UIViewController-Modal.png)](https://api.travis-ci.org/NZN/UIViewController-Modal.png)
-[![Cocoapods](https://cocoapod-badges.herokuapp.com/v/UIViewController-Modal/badge.png)](http://beta.cocoapods.org/?q=name%3Auiviewcontroller%20name%3Amodal%2A)
-[![Cocoapods](https://cocoapod-badges.herokuapp.com/p/UIViewController-Modal/badge.png)](http://beta.cocoapods.org/?q=name%3Auiviewcontroller%20name%3Amodal%2A)
+[![CocoaPods](https://cocoapod-badges.herokuapp.com/v/UIViewController-Modal/badge.png)](http://beta.cocoapods.org/?q=name%3Auiviewcontroller%20name%3Amodal%2A)
+[![CocoaPods](https://cocoapod-badges.herokuapp.com/p/UIViewController-Modal/badge.png)](http://beta.cocoapods.org/?q=name%3Auiviewcontroller%20name%3Amodal%2A)
 [![Analytics](https://ga-beacon.appspot.com/UA-48753665-1/NZN/UIViewController-Modal/README.md)](https://github.com/igrigorik/ga-beacon)
 
 ## Requirements
@@ -18,7 +18,7 @@ You will need LLVM 3.0 or later in order to build UIViewController-Modal.
 
 ## Adding UIViewController-Modal to your project
 
-### Cocoapods
+### CocoaPods
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add UIViewController-Modal to your project.
 
